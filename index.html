@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Peter Duong is a Western Sydney University student interested in graphic design, website design and photography.">
+  <meta name="author" content="Peter Duong">
+  <title>Home | Peter Duong</title>
+
+  <!-- This small image appears in the browser tab. -->
+  <link rel="icon" type="image/png" href="favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+
+  <!-- Oswald is for headings. Montserrat is for paragraphs. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Oswald:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/fonts/fonts.css">
+
+  <!-- Bootstrap comes before the website's own stylesheet. -->
+  <link rel="stylesheet" href="vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/bootstrap-icons/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body id="top">
+  <a class="visually-hidden-focusable" href="#main-content">Skip to content</a>
+
+  <!-- Navigation: the same menu is used on all four pages. -->
+  <nav class="navbar navbar-expand-md site-nav" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Peter Duong</a>
+
+      <!-- Bootstrap opens and closes this menu on small screens. -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#main-navbar" aria-controls="main-navbar"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="main-navbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Résumé</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content" tabindex="-1">
+    <!-- Introduction: Bootstrap stacks these columns on a phone. -->
+    <header class="page-header">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-md-8">
+            <p class="fw-bold">Aspiring graphic and web designer</p>
+            <h1>Hi, I’m Peter Duong.</h1>
+            <p class="lead">A creative eye and a thoughtful approach.</p>
+            <p>I’m a Western Sydney University student developing skills in website design, visual communication and photography.</p>
+            <a class="btn btn-primary me-2 mb-2" href="portfolio.html">View my portfolio</a>
+            <a class="btn btn-outline-primary mb-2" href="pdf/peter-duong-resume.pdf" download>Download résumé</a>
+          </div>
+          <div class="col-md-4 text-center">
+            <!-- PHOTO: change this src and alt text to use your own photo. -->
+            <img class="img-fluid home-image" src="images/peter-resume.png"
+                 alt="Peter’s original blue résumé design" width="927" height="1200">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About me -->
+    <section class="container py-5" id="about">
+      <h2>About me</h2>
+      <p>I enjoy the balance between creative thinking and practical problem solving. My studies in Information and Communications Technology include website design, networking and databases, alongside visual design and photography.</p>
+      <p>I’m learning how layout, colour and typography affect the way people understand information. I take a careful approach to technical and creative work, welcome feedback and enjoy building new skills.</p>
+      <p>I’m looking for an entry-level role or internship where I can gain practical experience and contribute to a team.</p>
+      <a href="resume.html">Read more about my education and skills</a>
+    </section>
+
+    <!-- Three simple cards for my creative interests. -->
+    <section class="section-blue py-5">
+      <div class="container">
+        <h2>My interests</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3>Website design</h3>
+                <p>Developing skills in webpage layout, navigation and clear presentation across different screen sizes.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3>Visual design</h3>
+                <p>Exploring how colour, typography and spacing can organise information and communicate an idea.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h3>Photography</h3>
+                <p>Learning camera techniques, framing and composition through practical coursework.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container py-5">
+      <h2>How I approach a project</h2>
+      <ol>
+        <li>Understand the purpose and who the design is for.</li>
+        <li>Choose a clear layout, readable text and suitable images.</li>
+        <li>Check the result and use feedback to improve it.</li>
+      </ol>
+      <a class="btn btn-primary" href="portfolio.html">Explore my work</a>
+    </section>
+  </main>
+
+  <!-- Footer: extra navigation and contact methods. -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <p class="fw-bold mb-2">Peter Duong</p>
+          <p>Graphic and web design student, New South Wales.</p>
+          <nav class="footer-nav" aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="resume.html">Résumé</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+        <div class="col-md-6">
+          <p><a href="mailto:PD8900@gmail.com"><i class="bi bi-envelope" aria-hidden="true"></i> Email Peter</a></p>
+          <p><a href="tel:+61453874237"><i class="bi bi-telephone" aria-hidden="true"></i> 0453 874 237</a></p>
+          <p><a href="https://www.linkedin.com/in/dzn007/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin" aria-hidden="true"></i> LinkedIn <span class="visually-hidden">(opens in a new tab)</span></a></p>
+          <p><a href="pdf/peter-duong-resume.pdf" download>Download résumé PDF</a></p>
+        </div>
+      </div>
+      <hr>
+      <p class="mb-0">© 2026 Peter Duong. Student portfolio. <a href="#top">Back to top</a></p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap provides the menu and project preview interactions. -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

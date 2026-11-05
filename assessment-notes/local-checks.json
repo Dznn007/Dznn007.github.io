@@ -1,0 +1,57 @@
+{
+  "contact.html": {
+    "title": "Contact | Peter Duong",
+    "main_words": 96,
+    "links": 21,
+    "local_links": "pass",
+    "bootstrap_targets": "pass",
+    "scripts": [
+      "js/bootstrap.bundle.min.js"
+    ]
+  },
+  "index.html": {
+    "title": "Home | Peter Duong",
+    "main_words": 200,
+    "links": 19,
+    "local_links": "pass",
+    "bootstrap_targets": "pass",
+    "scripts": [
+      "js/bootstrap.bundle.min.js"
+    ]
+  },
+  "portfolio.html": {
+    "title": "Portfolio | Peter Duong",
+    "main_words": 340,
+    "links": 16,
+    "local_links": "pass",
+    "bootstrap_targets": "pass",
+    "scripts": [
+      "js/bootstrap.bundle.min.js"
+    ]
+  },
+  "resume.html": {
+    "title": "R\u00e9sum\u00e9 | Peter Duong",
+    "main_words": 263,
+    "links": 16,
+    "local_links": "pass",
+    "bootstrap_targets": "pass",
+    "scripts": [
+      "js/bootstrap.bundle.min.js"
+    ]
+  },
+  "contrast_ratios": {
+    "#062d46 on #f7fbfe": 13.72,
+    "#16384d on #f7fbfe": 11.83,
+    "#465f6f on #daf1fd": 5.75,
+    "#062d46 on #56c4f9": 7.24,
+    "#ffffff on #062d46": 14.27,
+    "#e6f5fc on #062d46": 12.8
+  },
+  "resume_pdf": {
+    "pages": 1,
+    "extractable_words": 245,
+    "contact_links": 3,
+    "metadata_title": "Peter Duong | Resume"
+  },
+  "errors": []
+}

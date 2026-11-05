@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Peter Duong’s résumé design, website project and supporting site plan.">
+  <meta name="author" content="Peter Duong">
+  <title>Portfolio | Peter Duong</title>
+
+  <!-- This small image appears in the browser tab. -->
+  <link rel="icon" type="image/png" href="favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+
+  <!-- Oswald is for headings. Montserrat is for paragraphs. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Oswald:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/fonts/fonts.css">
+
+  <!-- Bootstrap comes before the website's own stylesheet. -->
+  <link rel="stylesheet" href="vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/bootstrap-icons/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body id="top">
+  <a class="visually-hidden-focusable" href="#main-content">Skip to content</a>
+
+  <!-- Navigation: the same menu is used on all four pages. -->
+  <nav class="navbar navbar-expand-md site-nav" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Peter Duong</a>
+
+      <!-- Bootstrap opens and closes this menu on small screens. -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#main-navbar" aria-controls="main-navbar"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="main-navbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="portfolio.html" aria-current="page">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Résumé</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content" tabindex="-1">
+    <header class="page-header">
+      <div class="container">
+        <h1>My portfolio</h1>
+        <p>Personal and coursework projects in visual communication and website design.</p>
+      </div>
+    </header>
+
+    <section class="container py-5">
+      <h2>Selected work</h2>
+      <p>These examples show my résumé design, this website project and its supporting plan. Select a preview to see the image at a larger size.</p>
+
+      <!-- Each project card opens its own Bootstrap modal below. -->
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <article class="card h-100">
+            <!-- PROJECT PHOTO: change this src and the matching modal image. -->
+            <img class="card-img-top project-image" src="images/peter-resume.png" alt="Original blue résumé design with a portrait and angled colour panels">
+            <div class="card-body">
+              <h3>Personal résumé design</h3>
+              <p>My original résumé uses blue colours and bold headings to organise my background, studies and strengths. It provided the colour direction for this website. The downloadable PDF uses updated headings to separate skills from coursework experience.</p>
+              <button class="btn btn-primary" type="button"
+                      data-bs-toggle="modal" data-bs-target="#resume-preview">
+                View personal résumé design
+              </button>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-4">
+          <article class="card h-100">
+            <!-- PROJECT PHOTO: change this src and the matching modal image. -->
+            <img class="card-img-top project-image" src="images/website-layout.svg" alt="Simple illustration of the four-page portfolio website">
+            <div class="card-body">
+              <h3>Portfolio website</h3>
+              <p>This website adapts the supplied Maggie Simpson Bootstrap template into four pages: Home, Portfolio, Résumé and Contact. The pages share the same colours, fonts and navigation. Bootstrap handles the columns, mobile menu and project previews.</p>
+              <button class="btn btn-primary" type="button"
+                      data-bs-toggle="modal" data-bs-target="#website-preview">
+                View portfolio website
+              </button>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-4">
+          <article class="card h-100">
+            <!-- PROJECT PHOTO: change this src and the matching modal image. -->
+            <img class="card-img-top project-image" src="images/site-plan.svg" alt="Sitemap showing Home, Portfolio, Résumé and Contact with a downloadable PDF">
+            <div class="card-body">
+              <h3>Website plan</h3>
+              <p>The sitemap keeps the website organised around four clear destinations. Each page has a main menu and footer links. The blue palette comes from my original résumé, with dark text over light backgrounds for readability.</p>
+              <button class="btn btn-primary" type="button"
+                      data-bs-toggle="modal" data-bs-target="#plan-preview">
+                View website plan
+              </button>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section-blue py-5">
+      <div class="container">
+        <h2>What I’m learning</h2>
+        <p>In visual design, I’m learning to use headings, spacing and colour to make information easier to scan. In website design, I’m practising how to connect pages and arrange content for different screen sizes.</p>
+        <p>I also welcome feedback about the navigation, readability and overall experience. Reviewing the work helps me identify improvements and develop practical skills.</p>
+        <a href="resume.html">See my education and skills</a>
+      </div>
+    </section>
+
+    <!-- Preview: Personal résumé design. Bootstrap provides opening, closing and keyboard controls. -->
+    <div class="modal fade" id="resume-preview" role="dialog" tabindex="-1"
+         aria-labelledby="resume-preview-title" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title h4" id="resume-preview-title">Personal résumé design</h2>
+            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close preview"></button>
+          </div>
+          <div class="modal-body">
+            <!-- FULL PHOTO: this src should match the card image above. -->
+            <img class="img-fluid" src="images/peter-resume.png" alt="Original blue résumé design with a portrait and angled colour panels">
+            <p class="mt-3">My original résumé uses blue colours and bold headings to organise my background, studies and strengths. It provided the colour direction for this website. The downloadable PDF uses updated headings to separate skills from coursework experience.</p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" type="button" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Preview: Portfolio website. Bootstrap provides opening, closing and keyboard controls. -->
+    <div class="modal fade" id="website-preview" role="dialog" tabindex="-1"
+         aria-labelledby="website-preview-title" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title h4" id="website-preview-title">Portfolio website</h2>
+            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close preview"></button>
+          </div>
+          <div class="modal-body">
+            <!-- FULL PHOTO: this src should match the card image above. -->
+            <img class="img-fluid" src="images/website-layout.svg" alt="Simple illustration of the four-page portfolio website">
+            <p class="mt-3">This website adapts the supplied Maggie Simpson Bootstrap template into four pages: Home, Portfolio, Résumé and Contact. The pages share the same colours, fonts and navigation. Bootstrap handles the columns, mobile menu and project previews.</p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" type="button" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Preview: Website plan. Bootstrap provides opening, closing and keyboard controls. -->
+    <div class="modal fade" id="plan-preview" role="dialog" tabindex="-1"
+         aria-labelledby="plan-preview-title" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title h4" id="plan-preview-title">Website plan</h2>
+            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close preview"></button>
+          </div>
+          <div class="modal-body">
+            <!-- FULL PHOTO: this src should match the card image above. -->
+            <img class="img-fluid" src="images/site-plan.svg" alt="Sitemap showing Home, Portfolio, Résumé and Contact with a downloadable PDF">
+            <p class="mt-3">The sitemap keeps the website organised around four clear destinations. Each page has a main menu and footer links. The blue palette comes from my original résumé, with dark text over light backgrounds for readability.</p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" type="button" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer: extra navigation and contact methods. -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <p class="fw-bold mb-2">Peter Duong</p>
+          <p>Graphic and web design student, New South Wales.</p>
+          <nav class="footer-nav" aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="resume.html">Résumé</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+        <div class="col-md-6">
+          <p><a href="mailto:PD8900@gmail.com"><i class="bi bi-envelope" aria-hidden="true"></i> Email Peter</a></p>
+          <p><a href="tel:+61453874237"><i class="bi bi-telephone" aria-hidden="true"></i> 0453 874 237</a></p>
+          <p><a href="https://www.linkedin.com/in/dzn007/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin" aria-hidden="true"></i> LinkedIn <span class="visually-hidden">(opens in a new tab)</span></a></p>
+          <p><a href="pdf/peter-duong-resume.pdf" download>Download résumé PDF</a></p>
+        </div>
+      </div>
+      <hr>
+      <p class="mb-0">© 2026 Peter Duong. Student portfolio. <a href="#top">Back to top</a></p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap provides the menu and project preview interactions. -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

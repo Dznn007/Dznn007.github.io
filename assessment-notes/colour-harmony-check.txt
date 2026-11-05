@@ -1,0 +1,5 @@
+Colour harmony: Analogous blue palette
+
+I used similar blue and cyan colours to keep the website consistent. Dark navy is used for headings and buttons. Light blue and near-white are used for backgrounds, while dark text makes the content easier to read.
+
+Fonts: Oswald for headings and Montserrat for body text.

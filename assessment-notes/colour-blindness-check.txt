@@ -1,0 +1,1 @@
+Adobe’s colour-blindness simulation flagged similarities between the dark blues and between the light background colours. I will avoid using these colour differences alone to communicate information. I will use clear labels, underlined links and strong contrast between text and backgrounds.
