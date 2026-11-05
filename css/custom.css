@@ -1,0 +1,122 @@
+/* Peter Duong portfolio. Bootstrap handles the grid, menu and modals. */
+
+/* Fonts and text colours */
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #16384d;
+  background-color: #f7fbfe;
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', Arial, sans-serif;
+  color: #062d46;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+a {
+  color: #005b88;
+  overflow-wrap: break-word;
+}
+
+/* Navigation and blue page headings */
+.site-nav {
+  background-color: #ffffff;
+  border-bottom: 3px solid #56c4f9;
+}
+
+.navbar-brand {
+  font-family: 'Oswald', Arial, sans-serif;
+  font-size: 26px;
+  color: #062d46;
+}
+
+.navbar .nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.page-header {
+  background-color: #daf1fd;
+  padding: 48px 0;
+}
+
+.section-blue {
+  background-color: #daf1fd;
+}
+
+/* Images stay inside their Bootstrap columns. */
+.home-image {
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+  border: 1px solid #bfd2de;
+}
+
+.project-image {
+  height: 240px;
+  object-fit: contain;
+  background-color: #daf1fd;
+  padding: 12px;
+}
+
+/* Use the same navy colour for both button styles. */
+.btn-primary {
+  background-color: #062d46;
+  border-color: #062d46;
+}
+
+.btn-primary:hover {
+  background-color: #005b88;
+  border-color: #005b88;
+}
+
+.btn-outline-primary {
+  color: #062d46;
+  border-color: #062d46;
+}
+
+.btn-outline-primary:hover {
+  color: #ffffff;
+  background-color: #062d46;
+  border-color: #062d46;
+}
+
+/* Footer links remain readable on the dark background. */
+.site-footer {
+  background-color: #062d46;
+  color: #ffffff;
+  padding: 32px 0;
+}
+
+.site-footer a {
+  color: #ffffff;
+}
+
+.footer-nav a {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+/* A small adjustment for phone screens. */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  .page-header {
+    padding: 32px 0;
+  }
+}
